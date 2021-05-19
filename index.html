@@ -1,87 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Alamin Personal Site</title>
-</head>
-
-<body>
-  <table>
-    <tr>
-      <td> <img src="alamin.png" alt="My Photo" width="200"></td>
-      <td>
-        <h1>Md.Al-amin Hossan</h1>
-        <p> <strong>Web Designer</strong> and <strong>Web Developer</strong> (Learning)</p>
-        <p>KamrangirChor, Dhaka-1211</p>
-      </td>
-    </tr>
-  </table>
-  <br>
-  <h3>Profile:</h3>
-  <hr>
-  <p>Fast of all I introduce myself, I am a student. I like to acquire technical knoledge. <br>
-    For this reson I have learning about <b>Web design</b> adn <b>Web development</b>.<br>
-    I <b>like</b> it very much. So, I went to be a <b>Web designer</b> and <b>web developer</b>.</p>
-  <br>
-  <h3>Educational Qualification:</h3>
-  <hr>
-  <table border="4">
-    <tr>
-      <th>Year</th>
-      <th>Exam Name</th>
-      <th>GPA</th>
-      <th>Institution Name</th>
-    </tr>
-    <tr>
-      <td>2019</td>
-      <td>Dakhil Examination</td>
-      <td>Pending</td>
-      <td>Alamin Islamia Alim Madrasha</td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Junior Dakhil Exam</td>
-      <td> A+ </td>
-      <td>Alamin Islamia Alim Madrasa</td>
-    </tr>
-  </table>
-  <br>
-  <h3>Hobby:</h3>
-  <hr>
-  <ol>
-    <li>Playing Cricket and Football</li>
-    <li>Traveling</li>
-    <li>Graphic Desing</li>
-  </ol>
-  <br>
-  <h3>Skil:</h3>
-  <hr>
-  <table>
-    <tr>
-      <td>1.Adobe Photoshop</td>
-      <td>🌟🌟🌟</td>
-    </tr>
-    <tr>
-      <td>2.Adobe Illustrator</td>
-      <td>🌟🌟</td>
-    </tr>
-    <tr>
-      <td>3.Whiteboard Animation</td>
-      <td>🌟🌟🌟</td>
-    </tr>
-    <tr>
-      <td>4.Video Editing</td>
-      <td>🌟🌟</td>
-    </tr>
-    <tr>
-      <td>5.HTML</td>
-      <td>🌟🌟🌟</td>
-    </tr>
-  </table>
-  <br>
-  <h3><a href="mycontactdetails.html">My Contact Details</a> </h3>
-
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>🧐Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <p class="between">(Between 1 and 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
